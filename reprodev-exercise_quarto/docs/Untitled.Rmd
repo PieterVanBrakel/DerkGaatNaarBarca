@@ -1,0 +1,54 @@
+---
+title: "R Markdown 15 maart"
+author: "Pieter van Brakel"
+date: "2024-03-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Meet `Quarto`
+
+`Quarto` enables you to weave together content and executable code into a finished document. 
+To learn more about Quarto see [https://quarto.org](https://quarto.org).
+
+# Meet the `boys` data 
+The `boys` data from the [`mice`](https://github.com/amices/mice){.pkg} package in [`R`]{.proglang} is a random sample of 10% from the cross-sectional data used to construct the Dutch growth references 1997. Variables `gen` and `phb` are ordered factors. `reg` is a factor.
+
+The following table shows the first 6 rows of the `boys` data.
+
+:::: {.columns}
+::: {.column width="60%"}
+```{r Boys inladen, echo=TRUE}
+
+head(mice::boys)
+```
+:::
+
+::: {.column width="40%"}
+![](https://amices.org/mice/logo.png){fig-align="right" width=60%}
+:::
+::::
+
