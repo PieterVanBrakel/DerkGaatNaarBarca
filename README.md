@@ -3,5 +3,5 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of my-reproducible-manuscript is to ...
+The goal of my-reproducible-manuscript is to dikke debiels
 
