@@ -9,4 +9,4 @@ pjeter is nu met de kno arts aan het bellen voor zijn soa
 
 Dikke fissa 
 
-The rendered `Quarto` file can be found [here](/docs/reprodev-exercise_quarto.html)
+The rendered `Quarto` file can be found [here](/reprodev-exercise_quarto/docs/reprodev-exercise_quarto.html)
